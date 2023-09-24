@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family:'Open Sans', sans-serif !important ;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-image: url(bg1.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -59,13 +61,18 @@ header .flex-items ul li:hover::after {
 }
 .body-font p {
     color: white;
+    text-align: center;
     
 }
 .containers {
     display: block;
+    margin-left: 300px;
+    margin-top: 100px;
+    color:rgb(0, 0, 0);
+    font-weight: 800;
 }
 .containers .desert {
-    width: 550px;
+    width: 850px;
     height: 550px;
     background-color: rgba(255, 255, 255, 0.45);
     background-image: url(sahara-camel.jpg);
@@ -75,16 +82,29 @@ header .flex-items ul li:hover::after {
     margin-top: 30px;
     transition: all 0.35s;
     font-size: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.containers .desert h3 {
+    text-align: center;
+}
+.containers .desert h3::after {
+    content: ''; /* Required for pseudo-elements */
+    display: block;
+    width: 100%; /* Adjust the line width as needed */
+    height: 1px;
+    border-bottom: 2px solid black; /* Add a white line */
+    margin-top:20px;
+}
+.containers .desert p {
+    text-align: center;
 }
 .containers .desert:hover {
-    width: 665px;
-    height: 665px;
-    padding: 25px;
+    transform: scale(1.15);
     font-size: 26px;
 }
 .containers .skyscrapers {
-    width: 550px;
+    width: 850px;
     height: 550px;
     background-color: rgba(255, 255, 255, 0.45);
     background-image: url(sky-scrapers.jfif);
@@ -94,16 +114,28 @@ header .flex-items ul li:hover::after {
     margin-top: 30px;
     transition: all 0.35s;
     font-size: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.containers .skyscrapers h3 {
+    text-align: center;
+}
+.containers .skyscrapers h3::after {
+    content: ''; /* Required for pseudo-elements */
+    display: block;
+    width: 100%; /* Adjust the line width as needed */
+    border-bottom: 2px solid black; /* Add a white line */
+    margin-top:20px;
+}
+.containers .skyscrapers p {
+    text-align: center;
 }
 .containers .skyscrapers:hover {
-    width: 665px;
-    height: 665px;
-    padding: 25px;
+    transform: scale(1.15);
     font-size: 26px;
 }
 .containers .desert-wildlife {
-    width: 550px;
+    width: 850px;
     height: 550px;
     background-color: rgba(255, 255, 255, 0.45);
     background-image: url(sahara-cactus.jpg);
@@ -111,18 +143,31 @@ header .flex-items ul li:hover::after {
     padding: 20px;
     border-radius: 15px;
     margin-top: 30px;
+    margin-left: 50px;
     transition: all 0.35s;
     font-size: 25px;
-    margin-left: 25px;
+    margin-bottom: 100px;
+    
+}
+.containers .desert-wildlife h3 {
+    text-align: center;
+}
+.containers .desert-wildlife h3::after {
+    content: ''; /* Required for pseudo-elements */
+    display: block;
+    width: 100%; /* Adjust the line width as needed */
+    border-bottom: 2px solid black; /* Add a white line */
+    margin-top:20px;
+}
+.containers .desert-wildlife p {
+    text-align: center;
 }
 .containers .desert-wildlife:hover {
-    width: 665px;
-    height: 665px;
-    padding: 25px;
+    transform: scale(1.15);
     font-size: 26px;
 }
 .containers .desert-ride {
-    width: 550px;
+    width: 850px;
     height: 550px;
     background-color: rgba(255, 255, 255, 0.45);
     background-image: url(dubai-safari.jfif);
@@ -132,12 +177,24 @@ header .flex-items ul li:hover::after {
     margin-top: 30px;
     transition: all 0.35s;
     font-size: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.containers .desert-ride h3 {
+    text-align: center;
+}
+.containers .desert-ride h3::after{
+    content: ''; /* Required for pseudo-elements */
+    display: block;
+    width: 100%; /* Adjust the line width as needed */
+    border-bottom: 2px solid black; /* Add a white line */
+    margin-top:20px;
+}
+.containers .desert-ride p {
+    text-align: center;
 }
 .containers .desert-ride:hover {
-    width: 665px;
-    height: 665px;
-    padding: 25px;
+    transform: scale(1.15);
     font-size: 26px;
 }
 .body-font h1 {
