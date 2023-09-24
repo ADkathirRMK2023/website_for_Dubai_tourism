@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Open Sans', sans-serif !important ;
+    background-image: url(bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .flex-items{
+    background-color: rgba(0,0,0, 0.55);
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+}
+header .flex-items h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+header .flex-items ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+header .flex-items ul {
+    margin-left: auto;
+    margin-top: 16px;
+}
+header .flex-items ul li a {
+    font-family:'Open Sans', sans-serif !important ;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+}
+header .flex-items ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: bisque;
+    transition: all 0.45s ease-in-out;
+}
+header .flex-items ul li:hover::after {
+    width: 100%;
+
+}
+.body-font h1{
+    color: white;
+    margin-top: 20px;
+    font-size: 55px;
+    line-height: 100px;
+
+}
+.body-font p {
+    color: white;
+    
+}
+.containers {
+    display: block;
+}
+.containers .desert {
+    width: 550px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-image: url(sahara-camel.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: all 0.35s;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.containers .desert:hover {
+    width: 665px;
+    height: 665px;
+    padding: 25px;
+    font-size: 26px;
+}
+.containers .skyscrapers {
+    width: 550px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-image: url(sky-scrapers.jfif);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: all 0.35s;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.containers .skyscrapers:hover {
+    width: 665px;
+    height: 665px;
+    padding: 25px;
+    font-size: 26px;
+}
+.containers .desert-wildlife {
+    width: 550px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-image: url(sahara-cactus.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: all 0.35s;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.containers .desert-wildlife:hover {
+    width: 665px;
+    height: 665px;
+    padding: 25px;
+    font-size: 26px;
+}
+.containers .desert-ride {
+    width: 550px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-image: url(dubai-safari.jfif);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: all 0.35s;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.containers .desert-ride:hover {
+    width: 665px;
+    height: 665px;
+    padding: 25px;
+    font-size: 26px;
+}
+.body-font h1 {
+    margin-left: 175px;
+}
+.body-font p {
+    margin-left: 35px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    
+}
